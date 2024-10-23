@@ -1,71 +1,71 @@
-## Análisis del Embudo de Ventas y Test A/A/B para una Empresa Alimenticia
+## Sales Funnel Analysis and A/A/B Test for a Food Company
 
-Este proyecto tiene como objetivo investigar el comportamiento de los usuarios y las usuarias en una aplicación de una empresa emergente que vende productos alimenticios. El análisis incluye dos fases principales: estudiar el embudo de ventas y analizar los resultados de un test A/A/B.
+This project aims to investigate user behavior within an app of an emerging company that sells food products. The analysis includes two main phases: studying the sales funnel and analyzing the results of an A/A/B test.
 
-### Descripción del Proyecto
+### Project Description
 
-La empresa necesita entender mejor cómo sus usuarios interactúan con la aplicación, especialmente en el contexto del proceso de compra. El análisis aborda dos aspectos fundamentales:
+The company needs to better understand how users interact with the application, especially in the context of the purchase process. The analysis addresses two key aspects:
 
-1. **Embudo de ventas**: 
-   - El objetivo es descubrir cómo los usuarios llegan a la etapa de compra dentro de la aplicación.
-   - Preguntas clave:
-     - ¿Cuántos usuarios realmente llegan a la etapa de compra?
-     - ¿Cuántos usuarios se quedan atascados en etapas anteriores?
-     - ¿Cuáles son las etapas específicas donde se observa mayor fricción?
+1. **Sales Funnel**: 
+   - The goal is to discover how users reach the purchase stage within the app.
+   - Key questions:
+     - How many users actually reach the purchase stage?
+     - How many users get stuck in earlier stages?
+     - Which specific stages experience the most friction?
 
-2. **Análisis de Test A/A/B**:
-   - El equipo de diseño está evaluando cambiar las fuentes tipográficas en toda la aplicación, pero existe la preocupación de que los cambios afecten negativamente la experiencia del usuario.
-   - Para tomar una decisión basada en datos, se ha realizado un test A/A/B. Los usuarios se han dividido en tres grupos:
-     - **Grupo A**: Control, con las fuentes antiguas.
-     - **Grupo A (duplicado)**: Otro grupo de control con las mismas fuentes antiguas, para validar la consistencia de los resultados.
-     - **Grupo B**: Grupo de prueba, que experimenta las nuevas fuentes.
-   - El análisis busca responder:
-     - ¿Qué conjunto de fuentes produce mejores resultados en términos de conversión y uso de la aplicación?
-     - ¿Existen diferencias significativas entre los dos grupos A de control? Si es así, ¿qué factores están influyendo en estos resultados?
+2. **A/A/B Test Analysis**:
+   - The design team is evaluating changing the typography throughout the app, but there is concern that the changes might negatively impact the user experience.
+   - To make a data-driven decision, an A/A/B test was conducted. Users were divided into three groups:
+     - **Group A**: Control group, using the old fonts.
+     - **Group A (duplicate)**: A second control group with the same old fonts to validate result consistency.
+     - **Group B**: Test group, using the new fonts.
+   - The analysis seeks to answer:
+     - Which font set yields better results in terms of conversion and app usage?
+     - Are there significant differences between the two Group A control groups? If so, what factors might be influencing these results?
 
-### Ventajas de dos grupos A
+### Benefits of Having Two Group A Control Groups
 
-El uso de dos grupos de control tiene ciertas ventajas clave:
-- Permite asegurar que los resultados sean fiables y precisos. Si hay diferencias significativas entre los dos grupos A, esto puede señalar problemas subyacentes en el experimento o factores que están afectando los resultados.
-- Ayuda a estimar la cantidad de tiempo y datos necesarios para futuros tests, mejorando la planificación de experimentos posteriores.
+Using two control groups has key advantages:
+- It ensures the results are reliable and accurate. If there are significant differences between the two Group A control groups, this may indicate underlying issues in the experiment or factors affecting the results.
+- It helps estimate the amount of time and data needed for future tests, improving the planning of subsequent experiments.
 
-### Dataset Utilizado
+### Dataset Used
 
-El dataset contiene información sobre el comportamiento de los usuarios en la aplicación y se utilizará tanto para el análisis del embudo de ventas como para el test A/A/B.
+The dataset contains information about user behavior within the app and will be used for both the sales funnel analysis and the A/A/B test.
 
-### Contenidos del Proyecto
+### Project Contents
 
-- **`notebooks/`**: Contiene los notebooks donde se realiza el análisis completo del embudo de ventas y el test A/A/B.
-- **`datasets/`**: Incluye los datos utilizados en el análisis (si es posible compartirlos).
-- **`environment.yml`**: Archivo con las dependencias necesarias para reproducir el entorno.
-- **`README.md`**: Este archivo con la descripción general del proyecto.
+- **`notebooks/`**: Contains the notebooks where the complete analysis of the sales funnel and the A/A/B test is performed.
+- **`datasets/`**: Includes the data used in the analysis (if sharing is allowed).
+- **`environment.yml`**: File with the necessary dependencies to reproduce the environment.
+- **`README.md`**: This file containing the projectâ€™s general description.
 
-### Instalación y Uso
+### Installation and Usage
 
-Para reproducir este análisis, sigue los siguientes pasos:
+To reproduce this analysis, follow these steps:
 
-1. Clona este repositorio:
+1. Clone this repository:
    ```bash
    git clone https://github.com/704k0-dev/a_a_b_test.git
    ```
 
-2. Crea un entorno de Conda e instala las dependencias:
+2. Create a Conda environment and install the dependencies:
    ```bash
    conda env create -f environment.yml
-   conda activate nombre_entorno
+   conda activate environment_name
    ```
 
-3. Abre Jupyter Notebook y explora los análisis:
+3. Open Jupyter Notebook and explore the analyses:
    ```bash
    jupyter notebook
    ```
 
-### Conclusiones del Proyecto
+### Project Conclusions
 
-Los resultados de este análisis permiten a la empresa comprender mejor el comportamiento de sus usuarios en el embudo de ventas y tomar decisiones basadas en datos respecto a los cambios de diseño en la aplicación. En particular:
-- Se identificaron puntos clave donde los usuarios tienden a quedarse atascados en el embudo de ventas, proporcionando áreas claras de mejora.
-- Los resultados del test A/A/B demostraron que las nuevas fuentes tipográficas no tuvieron un impacto negativo en la tasa de conversión, lo que sugiere que es seguro implementar el nuevo diseño en toda la aplicación.
+The results of this analysis enable the company to better understand user behavior within the sales funnel and make data-driven decisions regarding design changes in the app. In particular:
+- Key points were identified where users tend to get stuck in the sales funnel, highlighting clear areas for improvement.
+- The A/A/B test results showed that the new typography did not negatively affect the conversion rate, suggesting that it is safe to implement the new design across the app.
 
-### Licencia
+### License
 
-Este proyecto está licenciado bajo la MIT License - ver el archivo LICENSE para más detalles.
+This project is licensed under the MIT License â€“ see the LICENSE file for details.
